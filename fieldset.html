@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title> create fieldset form</title>
+        <style>
+            fieldset{
+                border:5px solid green;
+                margin-bottom:25px ;
+                border-radius:10px ;
+                padding-left:40px ;
+            }
+            legend{
+                background-color: hotpink;
+                padding:5px;
+                border-radius:10px ;
+                margin-left:-30px ;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> create fieldset form</h1>
+        <form>
+            <fieldset>
+            <legend>login details</legend>
+            <p>
+               <lable for="username">username:</lable></br>
+               <input type="text" name="username" id="username" size="20">
+            </p>
+            <p>
+                <lable for="password">password:</lable></br>
+               <input type="text" name="password" id="password">
+            </p>
+            </fieldset>
+
+            <fieldset>
+            <legend>adddress details</legend>
+            <p>
+                <lable for="door no">Door number:</lable></br>
+                <input type="text" name="door number" id="door number">
+             </p>
+             <p>
+                 <lable for="street">street name:</lable></br>
+                <input type="text" name="street name" id="street name">
+             </p>
+             <p>
+                <lable for="district">district name:</lable></br>
+                <input type="text" name="district name" id="district name">
+             </p>
+             <p>
+                 <lable for="state">state name:</lable></br>
+                <input type="text" name="state name" id="state name">
+             </p>
+            </fieldset>
+            <p>
+                <input type="Submit" value="send message">
+            </p>   
+        </form>
+    </body>
+</html>
